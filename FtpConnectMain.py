@@ -1,8 +1,8 @@
 import os
 from ftplib import FTP
 
-ftp = FTP('localhost')
-ftp.login("user", "*****")
+ftp = FTP('10.30.24.104')
+ftp.login("vdidenko", "vdidenko123")
 ftp.retrlines("LIST")
 
 #ftp.cwd("D:\TEMP\---Q2-2018")
