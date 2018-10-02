@@ -2,7 +2,7 @@ import os
 from ftplib import FTP
 
 ftp = FTP('10.30.24.104')
-ftp.login("vdidenko", "vdidenko123")
+ftp.login("vdidenko", "vdidenko")
 ftp.retrlines("LIST")
 
 #ftp.cwd("D:\TEMP\---Q2-2018")
